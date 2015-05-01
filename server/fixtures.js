@@ -13,9 +13,4 @@ if (Posts.find().count() === 0) {
         title: 'The Meteor Book',
         url: 'http://themeteorbook.com'
     });
-
-    Posts.insert({
-        title: 'The Meteor Book1',
-        url: 'http://themeteorbook1.com'
-    });
 }
